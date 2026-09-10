@@ -60,6 +60,7 @@ def main():
     plt.xlabel('Year')
     plt.ylabel('Population')
     plt.title('Population Projections')
+    
     ax.legend(loc='lower right')
 
     plt.tight_layout()  # Extra assurance everything fits nicely
