@@ -38,7 +38,7 @@ def main():
     def millions_formatter(x, pos):
         if x < 1000:
             return f'{int(x)}'
-        return f'{int(x / 1_000)}K' if x != 0 else '0'
+        return f"{int(x / 1_000)}K" if x != 0 else '0'
     ax.xaxis.set_major_formatter(FuncFormatter(millions_formatter))
 
     # 7. Add text metadata
